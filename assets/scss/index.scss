@@ -690,7 +690,7 @@
 .flag-3 {
     background-color: #d8b29e;
     left: 43%;
-    width: 280px;
+    width: 280px !important;
 }
 .flag-4 {
     background-color: #8dc63f;
@@ -953,6 +953,9 @@
             width: 555px;
             height: 417px;
         }
+        #modal-type-1 .swiper-slide img {
+            width: 90%;
+        }
         .swiper-button-prev,
         .swiper-button-next {
             width: 50px;
@@ -965,13 +968,22 @@
         .swiper-button-prev {
             left: -25px;
         }
+        .title-slide {
+            width: 365px;
+
+            padding: 2px 20px;
+        }
     }
 
     #modal-type-2 {
         .title-slide p {
             font-size: 20px;
         }
+        .title-slide {
+            width: 365px;
 
+            padding: 2px 20px;
+        }
         .slide-type-2-container {
             width: 555px;
             height: 323px;
@@ -988,6 +1000,22 @@
         .swiper-button-prev {
             left: -25px;
         }
+    }
+    .flag {
+        height: 35px;
+        p {
+            font-size: 18px;
+        }
+    }
+    .flag-1 {
+        left: 18%;
+    }
+    .flag-3 {
+        width: 260px !important;
+        left: 42%;
+    }
+    .usage-pointer {
+        top: 20px;
     }
 }
 
